@@ -22,7 +22,6 @@ export const mutations = {
 
   //******* ส่วนการอัพเดทข้อมูล ********/
   UPDATE_CERTIFICATE(state, payload) {
-    //*** วิธีที่ 2 อัพเดท state เฉพาะ key ที่ระบุ (แจ่ม) ***/
     const item = state.certificates.find(
       (certificate) => certificate.id === payload.id
     ); //ถ้า id ที่ส่งมาตรงกับ id ใน state
