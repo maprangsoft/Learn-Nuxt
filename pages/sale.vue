@@ -16,10 +16,10 @@
   <hr>
 
 <form @submit.prevent="add()">
-  <input type="text" v-model="id">
-  <input type="text" v-model="name">
-  <input type="text" v-model="provided_by">
-  <input type="text" v-model="detail">
+  <input type="text" v-model="id" required>
+  <input type="text" v-model="name" required>
+  <input type="text" v-model="provided_by" required>
+  <input type="text" v-model="detail" required>
 
 <div>
   <br>
