@@ -9,7 +9,10 @@
 
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+            <li class="nav-item active">
+         <nuxt-link to="/" class="nav-link">index</nuxt-link>
+        </li>
+        <li class="nav-item">
          <nuxt-link to="/sale" class="nav-link">sale</nuxt-link>
         </li>
         <li class="nav-item">

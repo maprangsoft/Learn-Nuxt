@@ -6,14 +6,13 @@
         my-app
       </h1>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
+        <nuxt-link
+          to="/sale"
           rel="noopener noreferrer"
           class="button--green"
         >
-          Documentation
-        </a>
+          ไปหน้า sale
+        </nuxt-link>
         <a
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
